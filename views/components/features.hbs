@@ -1,0 +1,45 @@
+{{{ _editable }}}
+<section class="features-section-1 section" id="features">
+  <div class="container">
+    <div class="row section-separator">
+
+      <div class="section-header col-md-10 col-md-offset-1">
+        <h2 class="section-heading">{{ title }}</h2>
+        <p class="sub-title">{{ subtitle }}</p>
+      </div>
+
+      <div class="part-1 col-xs-12">
+        <div class="row">
+
+          <div class="vertical-middle col-md-4 col-sm-6 col-sm-offset-3 ">
+
+            {{#slice features limit="2"}}
+              {{> (lookup . 'component') }}
+            {{/slice}}
+
+          </div>
+
+          <div class="vertical-middle col-md-4">
+            <div class="features-image">
+              {{#if image}}
+                <img src="{{ image }}" alt="">
+              {{else}}
+                <img src="/public/images/feature-phone.png" alt="">
+              {{/if}}
+            </div>
+          </div>
+
+          <div class="vertical-middle col-md-4 col-sm-6 col-sm-offset-3">
+
+            {{#slice features offset="2" limit="2"}}
+              {{> (lookup . 'component') }}
+            {{/slice}}
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

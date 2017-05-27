@@ -1,0 +1,105 @@
+<header id="header" class="okayNav-header navbar-fixed-top main-navbar-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+        <a class="navbar-brand light-logo" href="index.html"><img src="/public/images/logo-color.png" alt="" class="img-responsive"></a>
+      </div>
+      <div class="col-lg-9 col-md-9 col-sm-9 col-xs-6">
+        <nav role="navigation" class="okayNav pull-right" id="js-navbar-menu">
+          <ul id="navbar-nav" class="navbar-nav">
+            <li><a class="btn-nav" href="#features">Features</a></li>
+            <li><a class="btn-nav" href="#how-it-works">How it works</a></li>
+            <li><a class="btn-nav" href="#describe">Describe</a></li>
+            <li><a class="btn-nav" href="#subscribe">Subscribe</a></li>
+            <li><a class="btn-nav" href="#screenshots">Screenshots</a></li>
+            <li><a class="btn-nav" href="#download">Download App</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+{{#each story.content.body}}
+  {{> (lookup . 'component') }}
+{{/each}}
+
+<footer class="footer-section-1" id="footer">
+  <div class="container">
+    <div class="row section-separator">
+
+      <div class="each-item col-sm-5">
+        <div class="inner text-right">
+
+          <p class="sub-title">Any question?</p>
+          <a href="#" data-toggle="modal" data-target="#contact-form">
+            <h5 class="title">Contact us now!</h5>
+          </a>
+
+        </div>
+      </div>
+      <div class="each-item col-sm-2">
+        <div class="inner text-center">
+
+          <a href="index.html" class="logo-link">
+            <img src="/public/images/logo-color.png" alt="" class="img-responsive logo">
+          </a>
+
+        </div>
+      </div>
+      <div class="each-item col-sm-5">
+        <div class="inner text-left">
+
+          <p class="sub-title">Follow us on</p>
+          <ul class="nav social-icon">
+            <li><a href="#"><i class="icon icon-social-facebook"></i></a></li>
+            <li><a href="#"><i class="icon icon-social-twitter"></i></a></li>
+            <li><a href="#"><i class="icon icon-social-pinterest"></i></a></li>
+            <li><a href="#"><i class="icon icon-social-instagram"></i></a></li>
+          </ul>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>
+
+<div id="contact-form" class="contact-form modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+
+      <form id="contact-form-2" method="post" class="single-form" action="php/sendmail-4-input.php">
+
+        <div class=" col-xs-12">
+          <p class="email-loading"><img src="/public/images/loading.gif" alt="">&nbsp;&nbsp;&nbsp;Sending...</p>
+          <p class="email-success"><i class="icon icon-icon-check-alt2"></i> Your quote has successfully been sent.</p>
+          <p class="email-failed"><i class="icon icon-icon-close-alt2"></i> Something went wrong!</p>
+        </div>
+
+        <div class="col-xs-12 text-center">
+          <h4 class="title">Get 1 Month FREE Trial Now</h4>
+        </div>
+
+        <div class="col-xs-12">
+          <input name="name" class="contact-name form-control" type="text" placeholder="Name*" required="">
+        </div>
+        <div class="col-xs-12">
+          <input name="email" class="contact-email form-control" type="email" placeholder="Email*" required="">
+        </div>
+        <div class="col-xs-12">
+          <input name="subject" class="contact-subject form-control" type="text" placeholder="Subject">
+        </div>
+        <div class="col-xs-12">
+          <textarea class="contact-message form-control" rows="3" placeholder="Message*"></textarea>  
+        </div>
+        <div class="btn-form text-center col-xs-12">
+          <button class="btn btn-fill">SEND MESSAGE</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

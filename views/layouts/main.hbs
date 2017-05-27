@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!--#if expr="$HTTP_COOKIE=/fonts\-loaded\=1/" -->
+<html lang="en" class="html--fonts-loaded">
+<!--#else -->
+<html lang="en">
+<!--#endif -->
+<head>
+  <meta charset="utf-8">
+  <title>{{ story.name }} - Storyblok</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="generator" content="storyblok">
+  <meta name="cms" content="https://www.storyblok.com">
+  <link rel="icon" href="/public/images/favicon.ico">
+  <link rel="apple-touch-icon" href="/public/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/public/images/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/public/images/apple-touch-icon-114x114.png">
+  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="/public/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/public/icons/styles.css">
+  <link rel="stylesheet" href="/public/css/style.css">
+  <link rel="stylesheet" href="/public/css/colors/color-1.css" type="text/css" id="color-scheme" />
+</head>
+<body>
+  {{{body}}}
+
+  <script type="text/javascript" src="//app.storyblok.com/storyblok-latest.js"></script>
+  <script type="text/javascript">
+    storyblok.init();
+    storyblok.on('change', function() {
+      window.location.reload(true);
+    });
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="/public/bootstrap/js/bootstrap.min.js"></script>
+  <script src="/public/js/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+{{{ _editable }}}
+<section{{#if background}} style="background-image: url('{{ background }}')"{{/if}} class="header-section-1 bg-1 header-js" id="header">
+  <div class="overlay-color">
+    <div class="container">
+      <div class="row section-separator sp-top">
+
+        <div class="part-1 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+          <div class="part-inner text-center mr-small">
+
+            {{#if logo}}
+            <a href="/" class="logo-link">
+              <img src="{{ logo }}" alt="" class="img-responsive logo">
+            </a>
+            {{/if}}
+
+            <h1 class="title">{{ title }}</h1> 
+
+            {{#if cta_button_label}}
+            <div class="btn-form m-t-40 btn-scroll">
+              <a href="{{ cta_button_link }}" class="btn btn-fill">{{ cta_button_label }}</a>
+            </div>
+            {{/if}}
+
+            <div class="image-group">
+              {{#each images}}{{> (lookup . 'component') }}{{/each}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

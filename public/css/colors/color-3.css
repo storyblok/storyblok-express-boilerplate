@@ -1,0 +1,347 @@
+/**
+ * ===============================
+ *  Defult CSS 
+ * ===============================
+ */
+body {
+  color: #686868;
+}
+p {
+  color: #686868;
+}
+/*
+ * ====================================
+ * Gradient Text and border Color
+ * ====================================
+ */
+.gradient-text {
+  background-image: -webkit-linear-gradient(130deg, rgba(222, 73, 108, 0.85) 0%, rgba(254, 173, 39, 0.85) 100%);
+  background-image: -ms-linear-gradient(130deg, rgba(222, 73, 108, 0.85) 0%, rgba(254, 173, 39, 0.85) 100%);
+  background-image: -o-linear-gradient(130deg, rgba(222, 73, 108, 0.85) 0%, rgba(254, 173, 39, 0.85) 100%);
+}
+.gradient-text-full {
+  background-image: -webkit-linear-gradient(130deg, #de496c 0%, #fead27 100%);
+  background-image: -ms-linear-gradient(130deg, #de496c 0%, #fead27 100%);
+  background-image: -o-linear-gradient(130deg, #de496c 0%, #fead27 100%);
+}
+.gradient-border::before {
+  background-image: linear-gradient(130deg, rgba(222, 73, 108, 0.85) 0%, rgba(254, 173, 39, 0.85) 100%);
+  background-image: -webkit-linear-gradient(130deg, rgba(222, 73, 108, 0.85) 0%, rgba(254, 173, 39, 0.85) 100%);
+  background-image: -moz-linear-gradient(130deg, rgba(222, 73, 108, 0.85) 0%, rgba(254, 173, 39, 0.85) 100%);
+  background-image: -ms-linear-gradient(130deg, rgba(222, 73, 108, 0.85) 0%, rgba(254, 173, 39, 0.85) 100%);
+  background-image: -o-linear-gradient(130deg, rgba(222, 73, 108, 0.85) 0%, rgba(254, 173, 39, 0.85) 100%);
+}
+.gradient-border::after {
+  background-color: #ffffff;
+}
+/**
+ * ====================================
+ *  Every Section Headline Defult Class
+ * ====================================
+ */
+.section-heading {
+  color: #282828;
+}
+.section-header .sub-title {
+  color: #686868;
+}
+.light-text h1,
+.light-text h2,
+.light-text h3,
+.light-text h4,
+.light-text h5,
+.light-text h6,
+.light-text .btn * {
+  color: #ffffff;
+}
+.light-text p,
+.light-text span,
+.light-text .sub-title {
+  color: rgba(255, 255, 255, 0.75);
+}
+section.section {
+  background-color: #ffffff;
+}
+/**
+ * ===============================
+ *  Section Top and Bottom padding  
+ * ===============================
+ */
+.section-separator-line {
+  border-color: rgba(0, 0, 0, 0.12);
+}
+/**
+ * ====================================
+ * Background Overlay Color
+ * ====================================
+ */
+.overlay-color {
+  background-image: linear-gradient(130deg, rgba(222, 73, 108, 0.85) 0%, rgba(254, 173, 39, 0.85) 100%);
+  background-image: -webkit-linear-gradient(130deg, rgba(222, 73, 108, 0.85) 0%, rgba(254, 173, 39, 0.85) 100%);
+  background-image: -moz-linear-gradient(130deg, rgba(222, 73, 108, 0.85) 0%, rgba(254, 173, 39, 0.85) 100%);
+  background-image: -ms-linear-gradient(130deg, rgba(222, 73, 108, 0.85) 0%, rgba(254, 173, 39, 0.85) 100%);
+  background-image: -o-linear-gradient(130deg, rgba(222, 73, 108, 0.85) 0%, rgba(254, 173, 39, 0.85) 100%);
+}
+.overlay-color-full {
+  background-image: linear-gradient(130deg, #de496c 0%, #fead27 100%);
+  background-image: -webkit-linear-gradient(130deg, #de496c 0%, #fead27 100%);
+  background-image: -moz-linear-gradient(130deg, #de496c 0%, #fead27 100%);
+  background-image: -ms-linear-gradient(130deg, #de496c 0%, #fead27 100%);
+  background-image: -o-linear-gradient(130deg, #de496c 0%, #fead27 100%);
+}
+/**
+ * ===============================
+ *   Defult Button Style
+ * ===============================
+ */
+.btn {
+  color: #ffffff;
+}
+.btn.btn-fill,
+.btn.btn-fill .icon,
+.btn.btn-fill:hover {
+  background-color: #000031;
+  color: #ffffff;
+}
+.btn.btn-border {
+  background-color: transparent;
+  border-color: #000031;
+  color: #000031;
+}
+.btn.btn-border:hover {
+  background-color: #000031;
+  color: #ffffff;
+}
+.btn:hover {
+  box-shadow: 0 5px 28px 0 rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0 5px 28px 0 rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0 5px 28px 0 rgba(0, 0, 0, 0.35);
+  -o-box-shadow: 0 5px 28px 0 rgba(0, 0, 0, 0.35);
+}
+.btn-text-link {
+  color: rgba(40, 40, 40, 0.85);
+}
+.btn-text-link a {
+  color: #de496c;
+}
+/** 
+ * ======================
+ * Social Icon Style
+ * ======================
+ */
+.social-icon li a,
+.social-icon li a:hover {
+  color: #ffffff;
+  background-color: #de496c;
+}
+/**
+ * ===================================
+ * Subscription and contact  "MESSAGE"
+ * ===================================
+ */
+.email-loading {
+  color: #52B8FF;
+}
+.subscription-failed,
+.email-failed {
+  color: #FF5252 !important;
+}
+.subscription-success,
+.email-success {
+  color: #56CC35;
+}
+/**
+ * =========================
+ * Form Style 
+ * =========================
+ */
+.single-form .form-control {
+  background-color: #ffffff;
+  box-shadow: 0 0 0 0 #fff;
+  color: rgba(40, 40, 40, 0.9);
+}
+.single-form .form-control::-webkit-input-placeholder {
+  color: rgba(40, 40, 40, 0.6) !important;
+}
+.single-form .form-control:-moz-placeholder {
+  color: rgba(40, 40, 40, 0.6) !important;
+}
+.single-form .form-control::-moz-placeholder {
+  color: rgba(40, 40, 40, 0.6) !important;
+}
+.single-form .form-control:-ms-input-placeholder {
+  color: rgba(40, 40, 40, 0.6) !important;
+}
+.single-form .select-outer::after {
+  border-color: #ffffff transparent transparent;
+}
+/****************************************************************
+    START MAIN CSS STYLE
+*****************************************************************/
+/**
+ * =======================
+ * Navigation
+ * =======================
+ */
+.main-navbar-top {
+  background-color: #ffffff;
+  box-shadow: 0 1px 12px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 12px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 1px 12px 0px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 1px 12px 0px rgba(0, 0, 0, 0.1);
+}
+.main-navbar-top .navbar-header .navbar-toggle .icon-bar {
+  background-color: #de496c;
+}
+.main-navbar-top .okayNav__menu-toggle span {
+  background-color: #282828;
+}
+.main-navbar-top .okayNav__menu-toggle.icon--active span {
+  background-color: #de496c;
+}
+.main-navbar-top ul li .btn-nav {
+  color: #282828;
+}
+.main-navbar-top ul li .btn-nav:before {
+  background-color: #de496c;
+}
+.main-navbar-top ul li .btn-nav:hover {
+  background-color: transparent;
+  color: #de496c;
+}
+.main-navbar-top ul li.active .btn-nav {
+  color: #de496c;
+}
+/**
+ * ===============================
+ * Header Style 1
+ * ===============================
+*/
+.header-section-1 .title {
+  color: #ffffff;
+}
+.header-section-1 .image-group img {
+  box-shadow: 0 5px 28px 0 rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0 5px 28px 0 rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0 5px 28px 0 rgba(0, 0, 0, 0.35);
+  -o-box-shadow: 0 5px 28px 0 rgba(0, 0, 0, 0.35);
+}
+/**
+ * ====================================
+ * Features Style 1
+ * ====================================
+ */
+.features-section-1 .feature-item .title {
+  color: #282828;
+}
+/**
+ * ====================================
+ * Features Style 2 
+ * ====================================
+ */
+.features-section-2 .features-item .icon-outer {
+  background-color: #ffffff;
+  box-shadow: 0px 5px 16px 0px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: 0px 5px 16px 0px rgba(0, 0, 0, 0.22);
+  -webkit-box-shadow: 0px 5px 16px 0px rgba(0, 0, 0, 0.22);
+  -o-box-shadow: 0px 5px 16px 0px rgba(0, 0, 0, 0.22);
+}
+.features-section-2 .features-item::after,
+.features-section-2 .features-item::before {
+  border-color: rgba(255, 255, 255, 0.55);
+}
+.features-section-2 .features-item:last-child::after {
+  border-color: transparent;
+}
+.features-section-2 .features-item:first-child::before {
+  border-color: transparent;
+}
+/**
+ * ====================================
+ * Features Style 3 
+ * ====================================
+ */
+.features-section-3 .features-list .media .title {
+  color: #282828;
+}
+.app-swiper-slide .swiper-pagination .swiper-pagination-bullet {
+  background-color: #de496c;
+}
+.app-swiper-slide .swiper-pagination .swiper-pagination-bullet::before {
+  border-color: #de496c;
+}
+/**
+ * ====================================
+ * Features Style 4
+ * ====================================
+ */
+.features-section-4 .single-form .input-group {
+  background-color: #ffffff;
+  box-shadow: 0 5px 28px 0 rgba(0, 0, 0, 0.35);
+  -moz-box-shadow: 0 5px 28px 0 rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 0 5px 28px 0 rgba(0, 0, 0, 0.35);
+  -o-box-shadow: 0 5px 28px 0 rgba(0, 0, 0, 0.35);
+}
+/**
+ * ====================================
+ * Features Style 5
+ * ====================================
+ */
+.features-section-5 .swiper-wrapper blockquote {
+  color: #ffffff;
+}
+.features-section-5 .swiper-wrapper .name {
+  color: #ffffff;
+}
+.features-section-5 .swiper-wrapper .position {
+  color: #ffffff;
+}
+/**
+ * ====================================
+ * Footer Section 1
+ * ====================================
+ */
+.footer-section-1 {
+  background-color: #ffffff;
+}
+.footer-section-1 .title {
+  color: #de496c;
+}
+.footer-section-1 .each-item {
+  border-right-color: rgba(0, 0, 0, 0.12);
+}
+/**
+ * ====================================
+ * Contact Form
+ * ====================================
+ */
+.contact-form .title {
+  color: #282828;
+}
+.contact-form .single-form .form-control {
+  border-color: rgba(0, 0, 0, 0.12);
+}
+.contact-form .single-form .form-control:focus {
+  border-color: #de496c;
+}
+@media (max-width: 767px) {
+  /**
+     * =======================
+     * Navigation
+     * =======================
+     */
+  .main-navbar-top .navbar-header .navbar-toggle .icon-bar {
+    background-color: #de496c;
+  }
+  .main-navbar-top .navbar-collapse {
+    border-top-color: rgba(0, 0, 0, 0.08);
+  }
+  /**
+     * ====================================
+     * Footer Section 1
+     * ====================================
+     */
+  .footer-section-1 .each-item {
+    border-bottom-color: rgba(0, 0, 0, 0.08);
+  }
+}

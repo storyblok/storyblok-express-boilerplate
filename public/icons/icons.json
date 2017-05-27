@@ -1,0 +1,1458 @@
+[
+  {
+    "value": "icon-app-store",
+    "name": "icon-app-store"
+  },
+  {
+    "value": "icon-google-play",
+    "name": "icon-google-play"
+  },
+  {
+    "value": "icon-windows",
+    "name": "icon-windows"
+  },
+  {
+    "value": "icon-windows-outline",
+    "name": "icon-windows-outline"
+  },
+  {
+    "value": "icon-arrow-back",
+    "name": "icon-arrow-back"
+  },
+  {
+    "value": "icon-arrow-carrot-2down",
+    "name": "icon-arrow-carrot-2down"
+  },
+  {
+    "value": "icon-arrow-carrot-2down-alt2",
+    "name": "icon-arrow-carrot-2down-alt2"
+  },
+  {
+    "value": "icon-arrow-carrot-2dwnn-alt",
+    "name": "icon-arrow-carrot-2dwnn-alt"
+  },
+  {
+    "value": "icon-arrow-carrot-2left",
+    "name": "icon-arrow-carrot-2left"
+  },
+  {
+    "value": "icon-arrow-carrot-2left-alt",
+    "name": "icon-arrow-carrot-2left-alt"
+  },
+  {
+    "value": "icon-arrow-carrot-2left-alt2",
+    "name": "icon-arrow-carrot-2left-alt2"
+  },
+  {
+    "value": "icon-arrow-carrot-2right",
+    "name": "icon-arrow-carrot-2right"
+  },
+  {
+    "value": "icon-arrow-carrot-2right-alt",
+    "name": "icon-arrow-carrot-2right-alt"
+  },
+  {
+    "value": "icon-arrow-carrot-2right-alt2",
+    "name": "icon-arrow-carrot-2right-alt2"
+  },
+  {
+    "value": "icon-arrow-carrot-2up",
+    "name": "icon-arrow-carrot-2up"
+  },
+  {
+    "value": "icon-arrow-carrot-2up-alt",
+    "name": "icon-arrow-carrot-2up-alt"
+  },
+  {
+    "value": "icon-arrow-carrot-2up-alt2",
+    "name": "icon-arrow-carrot-2up-alt2"
+  },
+  {
+    "value": "icon-arrow-carrot-down",
+    "name": "icon-arrow-carrot-down"
+  },
+  {
+    "value": "icon-arrow-carrot-down-alt",
+    "name": "icon-arrow-carrot-down-alt"
+  },
+  {
+    "value": "icon-arrow-carrot-down-alt2",
+    "name": "icon-arrow-carrot-down-alt2"
+  },
+  {
+    "value": "icon-arrow-carrot-left",
+    "name": "icon-arrow-carrot-left"
+  },
+  {
+    "value": "icon-arrow-carrot-left-alt",
+    "name": "icon-arrow-carrot-left-alt"
+  },
+  {
+    "value": "icon-arrow-carrot-left-alt2",
+    "name": "icon-arrow-carrot-left-alt2"
+  },
+  {
+    "value": "icon-arrow-carrot-right",
+    "name": "icon-arrow-carrot-right"
+  },
+  {
+    "value": "icon-arrow-carrot-right-alt",
+    "name": "icon-arrow-carrot-right-alt"
+  },
+  {
+    "value": "icon-arrow-carrot-right-alt2",
+    "name": "icon-arrow-carrot-right-alt2"
+  },
+  {
+    "value": "icon-arrow-carrot-up",
+    "name": "icon-arrow-carrot-up"
+  },
+  {
+    "value": "icon-arrow-carrot-up-alt",
+    "name": "icon-arrow-carrot-up-alt"
+  },
+  {
+    "value": "icon-arrow-carrot-up-alt2",
+    "name": "icon-arrow-carrot-up-alt2"
+  },
+  {
+    "value": "icon-arrow-condense",
+    "name": "icon-arrow-condense"
+  },
+  {
+    "value": "icon-arrow-condense-alt",
+    "name": "icon-arrow-condense-alt"
+  },
+  {
+    "value": "icon-arrow-down",
+    "name": "icon-arrow-down"
+  },
+  {
+    "value": "icon-arrow-down-alt",
+    "name": "icon-arrow-down-alt"
+  },
+  {
+    "value": "icon-arrow-expand",
+    "name": "icon-arrow-expand"
+  },
+  {
+    "value": "icon-arrow-expand-alt",
+    "name": "icon-arrow-expand-alt"
+  },
+  {
+    "value": "icon-arrow-expand-alt2",
+    "name": "icon-arrow-expand-alt2"
+  },
+  {
+    "value": "icon-arrow-expand-alt3",
+    "name": "icon-arrow-expand-alt3"
+  },
+  {
+    "value": "icon-arrow-left",
+    "name": "icon-arrow-left"
+  },
+  {
+    "value": "icon-arrow-left-alt",
+    "name": "icon-arrow-left-alt"
+  },
+  {
+    "value": "icon-arrow-left-down",
+    "name": "icon-arrow-left-down"
+  },
+  {
+    "value": "icon-arrow-left-down-alt",
+    "name": "icon-arrow-left-down-alt"
+  },
+  {
+    "value": "icon-arrow-left-right",
+    "name": "icon-arrow-left-right"
+  },
+  {
+    "value": "icon-arrow-left-right-alt",
+    "name": "icon-arrow-left-right-alt"
+  },
+  {
+    "value": "icon-arrow-left-up",
+    "name": "icon-arrow-left-up"
+  },
+  {
+    "value": "icon-arrow-left-up-alt",
+    "name": "icon-arrow-left-up-alt"
+  },
+  {
+    "value": "icon-arrow-move",
+    "name": "icon-arrow-move"
+  },
+  {
+    "value": "icon-arrow-right",
+    "name": "icon-arrow-right"
+  },
+  {
+    "value": "icon-arrow-right-alt",
+    "name": "icon-arrow-right-alt"
+  },
+  {
+    "value": "icon-arrow-right-down",
+    "name": "icon-arrow-right-down"
+  },
+  {
+    "value": "icon-arrow-right-down-alt",
+    "name": "icon-arrow-right-down-alt"
+  },
+  {
+    "value": "icon-arrow-right-up",
+    "name": "icon-arrow-right-up"
+  },
+  {
+    "value": "icon-arrow-right-up-alt",
+    "name": "icon-arrow-right-up-alt"
+  },
+  {
+    "value": "icon-arrow-triangle-down",
+    "name": "icon-arrow-triangle-down"
+  },
+  {
+    "value": "icon-arrow-triangle-down-alt",
+    "name": "icon-arrow-triangle-down-alt"
+  },
+  {
+    "value": "icon-arrow-triangle-down-alt2",
+    "name": "icon-arrow-triangle-down-alt2"
+  },
+  {
+    "value": "icon-arrow-triangle-left",
+    "name": "icon-arrow-triangle-left"
+  },
+  {
+    "value": "icon-arrow-triangle-left-alt",
+    "name": "icon-arrow-triangle-left-alt"
+  },
+  {
+    "value": "icon-arrow-triangle-left-alt2",
+    "name": "icon-arrow-triangle-left-alt2"
+  },
+  {
+    "value": "icon-arrow-triangle-right",
+    "name": "icon-arrow-triangle-right"
+  },
+  {
+    "value": "icon-arrow-triangle-right-alt",
+    "name": "icon-arrow-triangle-right-alt"
+  },
+  {
+    "value": "icon-arrow-triangle-right-alt2",
+    "name": "icon-arrow-triangle-right-alt2"
+  },
+  {
+    "value": "icon-arrow-triangle-up",
+    "name": "icon-arrow-triangle-up"
+  },
+  {
+    "value": "icon-arrow-triangle-up-alt",
+    "name": "icon-arrow-triangle-up-alt"
+  },
+  {
+    "value": "icon-arrow-triangle-up-alt2",
+    "name": "icon-arrow-triangle-up-alt2"
+  },
+  {
+    "value": "icon-arrow-up",
+    "name": "icon-arrow-up"
+  },
+  {
+    "value": "icon-arrow-up-alt",
+    "name": "icon-arrow-up-alt"
+  },
+  {
+    "value": "icon-arrow-up-down",
+    "name": "icon-arrow-up-down"
+  },
+  {
+    "value": "icon-arrow-up-down-alt",
+    "name": "icon-arrow-up-down-alt"
+  },
+  {
+    "value": "icon-icon-adjust-horiz",
+    "name": "icon-icon-adjust-horiz"
+  },
+  {
+    "value": "icon-icon-adjust-vert",
+    "name": "icon-icon-adjust-vert"
+  },
+  {
+    "value": "icon-icon-archive",
+    "name": "icon-icon-archive"
+  },
+  {
+    "value": "icon-icon-archive-alt",
+    "name": "icon-icon-archive-alt"
+  },
+  {
+    "value": "icon-icon-bag",
+    "name": "icon-icon-bag"
+  },
+  {
+    "value": "icon-icon-bag-alt",
+    "name": "icon-icon-bag-alt"
+  },
+  {
+    "value": "icon-icon-balance",
+    "name": "icon-icon-balance"
+  },
+  {
+    "value": "icon-icon-blocked",
+    "name": "icon-icon-blocked"
+  },
+  {
+    "value": "icon-icon-book",
+    "name": "icon-icon-book"
+  },
+  {
+    "value": "icon-icon-book-alt",
+    "name": "icon-icon-book-alt"
+  },
+  {
+    "value": "icon-icon-box-checked",
+    "name": "icon-icon-box-checked"
+  },
+  {
+    "value": "icon-icon-box-empty",
+    "name": "icon-icon-box-empty"
+  },
+  {
+    "value": "icon-icon-box-selected",
+    "name": "icon-icon-box-selected"
+  },
+  {
+    "value": "icon-icon-briefcase",
+    "name": "icon-icon-briefcase"
+  },
+  {
+    "value": "icon-icon-briefcase-alt",
+    "name": "icon-icon-briefcase-alt"
+  },
+  {
+    "value": "icon-icon-building",
+    "name": "icon-icon-building"
+  },
+  {
+    "value": "icon-icon-building-alt",
+    "name": "icon-icon-building-alt"
+  },
+  {
+    "value": "icon-icon-calculator-alt",
+    "name": "icon-icon-calculator-alt"
+  },
+  {
+    "value": "icon-icon-calendar",
+    "name": "icon-icon-calendar"
+  },
+  {
+    "value": "icon-icon-calulator",
+    "name": "icon-icon-calulator"
+  },
+  {
+    "value": "icon-icon-camera",
+    "name": "icon-icon-camera"
+  },
+  {
+    "value": "icon-icon-camera-alt",
+    "name": "icon-icon-camera-alt"
+  },
+  {
+    "value": "icon-icon-cart",
+    "name": "icon-icon-cart"
+  },
+  {
+    "value": "icon-icon-cart-alt",
+    "name": "icon-icon-cart-alt"
+  },
+  {
+    "value": "icon-icon-chat",
+    "name": "icon-icon-chat"
+  },
+  {
+    "value": "icon-icon-chat-alt",
+    "name": "icon-icon-chat-alt"
+  },
+  {
+    "value": "icon-icon-check",
+    "name": "icon-icon-check"
+  },
+  {
+    "value": "icon-icon-check-alt",
+    "name": "icon-icon-check-alt"
+  },
+  {
+    "value": "icon-icon-check-alt2",
+    "name": "icon-icon-check-alt2"
+  },
+  {
+    "value": "icon-icon-circle-empty",
+    "name": "icon-icon-circle-empty"
+  },
+  {
+    "value": "icon-icon-circle-slelected",
+    "name": "icon-icon-circle-slelected"
+  },
+  {
+    "value": "icon-icon-clipboard",
+    "name": "icon-icon-clipboard"
+  },
+  {
+    "value": "icon-icon-clock",
+    "name": "icon-icon-clock"
+  },
+  {
+    "value": "icon-icon-clock-alt",
+    "name": "icon-icon-clock-alt"
+  },
+  {
+    "value": "icon-icon-close",
+    "name": "icon-icon-close"
+  },
+  {
+    "value": "icon-icon-close-alt",
+    "name": "icon-icon-close-alt"
+  },
+  {
+    "value": "icon-icon-close-alt2",
+    "name": "icon-icon-close-alt2"
+  },
+  {
+    "value": "icon-icon-cloud",
+    "name": "icon-icon-cloud"
+  },
+  {
+    "value": "icon-icon-cloud-alt",
+    "name": "icon-icon-cloud-alt"
+  },
+  {
+    "value": "icon-icon-cloud-download",
+    "name": "icon-icon-cloud-download"
+  },
+  {
+    "value": "icon-icon-cloud-download-alt",
+    "name": "icon-icon-cloud-download-alt"
+  },
+  {
+    "value": "icon-icon-cloud-upload",
+    "name": "icon-icon-cloud-upload"
+  },
+  {
+    "value": "icon-icon-cloud-upload-alt",
+    "name": "icon-icon-cloud-upload-alt"
+  },
+  {
+    "value": "icon-icon-cog",
+    "name": "icon-icon-cog"
+  },
+  {
+    "value": "icon-icon-cogs",
+    "name": "icon-icon-cogs"
+  },
+  {
+    "value": "icon-icon-comment",
+    "name": "icon-icon-comment"
+  },
+  {
+    "value": "icon-icon-comment-alt",
+    "name": "icon-icon-comment-alt"
+  },
+  {
+    "value": "icon-icon-compass",
+    "name": "icon-icon-compass"
+  },
+  {
+    "value": "icon-icon-compass-alt",
+    "name": "icon-icon-compass-alt"
+  },
+  {
+    "value": "icon-icon-cone",
+    "name": "icon-icon-cone"
+  },
+  {
+    "value": "icon-icon-cone-alt",
+    "name": "icon-icon-cone-alt"
+  },
+  {
+    "value": "icon-icon-contacts",
+    "name": "icon-icon-contacts"
+  },
+  {
+    "value": "icon-icon-contacts-alt",
+    "name": "icon-icon-contacts-alt"
+  },
+  {
+    "value": "icon-icon-creditcard",
+    "name": "icon-icon-creditcard"
+  },
+  {
+    "value": "icon-icon-currency",
+    "name": "icon-icon-currency"
+  },
+  {
+    "value": "icon-icon-currency-alt",
+    "name": "icon-icon-currency-alt"
+  },
+  {
+    "value": "icon-icon-cursor",
+    "name": "icon-icon-cursor"
+  },
+  {
+    "value": "icon-icon-cursor-alt",
+    "name": "icon-icon-cursor-alt"
+  },
+  {
+    "value": "icon-icon-datareport",
+    "name": "icon-icon-datareport"
+  },
+  {
+    "value": "icon-icon-datareport-alt",
+    "name": "icon-icon-datareport-alt"
+  },
+  {
+    "value": "icon-icon-desktop",
+    "name": "icon-icon-desktop"
+  },
+  {
+    "value": "icon-icon-dislike",
+    "name": "icon-icon-dislike"
+  },
+  {
+    "value": "icon-icon-dislike-alt",
+    "name": "icon-icon-dislike-alt"
+  },
+  {
+    "value": "icon-icon-document",
+    "name": "icon-icon-document"
+  },
+  {
+    "value": "icon-icon-document-alt",
+    "name": "icon-icon-document-alt"
+  },
+  {
+    "value": "icon-icon-documents",
+    "name": "icon-icon-documents"
+  },
+  {
+    "value": "icon-icon-documents-alt",
+    "name": "icon-icon-documents-alt"
+  },
+  {
+    "value": "icon-icon-download",
+    "name": "icon-icon-download"
+  },
+  {
+    "value": "icon-icon-drawer",
+    "name": "icon-icon-drawer"
+  },
+  {
+    "value": "icon-icon-drawer-alt",
+    "name": "icon-icon-drawer-alt"
+  },
+  {
+    "value": "icon-icon-drive",
+    "name": "icon-icon-drive"
+  },
+  {
+    "value": "icon-icon-drive-alt",
+    "name": "icon-icon-drive-alt"
+  },
+  {
+    "value": "icon-icon-easel",
+    "name": "icon-icon-easel"
+  },
+  {
+    "value": "icon-icon-easel-alt",
+    "name": "icon-icon-easel-alt"
+  },
+  {
+    "value": "icon-icon-error-circle",
+    "name": "icon-icon-error-circle"
+  },
+  {
+    "value": "icon-icon-error-circle-alt",
+    "name": "icon-icon-error-circle-alt"
+  },
+  {
+    "value": "icon-icon-error-oct",
+    "name": "icon-icon-error-oct"
+  },
+  {
+    "value": "icon-icon-error-oct-alt",
+    "name": "icon-icon-error-oct-alt"
+  },
+  {
+    "value": "icon-icon-error-triangle",
+    "name": "icon-icon-error-triangle"
+  },
+  {
+    "value": "icon-icon-error-triangle-alt",
+    "name": "icon-icon-error-triangle-alt"
+  },
+  {
+    "value": "icon-icon-film",
+    "name": "icon-icon-film"
+  },
+  {
+    "value": "icon-icon-floppy",
+    "name": "icon-icon-floppy"
+  },
+  {
+    "value": "icon-icon-floppy-alt",
+    "name": "icon-icon-floppy-alt"
+  },
+  {
+    "value": "icon-icon-flowchart",
+    "name": "icon-icon-flowchart"
+  },
+  {
+    "value": "icon-icon-flowchart-alt",
+    "name": "icon-icon-flowchart-alt"
+  },
+  {
+    "value": "icon-icon-folder",
+    "name": "icon-icon-folder"
+  },
+  {
+    "value": "icon-icon-folder-add",
+    "name": "icon-icon-folder-add"
+  },
+  {
+    "value": "icon-icon-folder-add-alt",
+    "name": "icon-icon-folder-add-alt"
+  },
+  {
+    "value": "icon-icon-folder-alt",
+    "name": "icon-icon-folder-alt"
+  },
+  {
+    "value": "icon-icon-folder-download",
+    "name": "icon-icon-folder-download"
+  },
+  {
+    "value": "icon-icon-folder-open",
+    "name": "icon-icon-folder-open"
+  },
+  {
+    "value": "icon-icon-folder-open-alt",
+    "name": "icon-icon-folder-open-alt"
+  },
+  {
+    "value": "icon-icon-folder-upload",
+    "name": "icon-icon-folder-upload"
+  },
+  {
+    "value": "icon-icon-genius",
+    "name": "icon-icon-genius"
+  },
+  {
+    "value": "icon-icon-gift",
+    "name": "icon-icon-gift"
+  },
+  {
+    "value": "icon-icon-gift-alt",
+    "name": "icon-icon-gift-alt"
+  },
+  {
+    "value": "icon-icon-globe",
+    "name": "icon-icon-globe"
+  },
+  {
+    "value": "icon-icon-globe-2",
+    "name": "icon-icon-globe-2"
+  },
+  {
+    "value": "icon-icon-globe-alt",
+    "name": "icon-icon-globe-alt"
+  },
+  {
+    "value": "icon-icon-grid-2x2",
+    "name": "icon-icon-grid-2x2"
+  },
+  {
+    "value": "icon-icon-grid-3x3",
+    "name": "icon-icon-grid-3x3"
+  },
+  {
+    "value": "icon-icon-group",
+    "name": "icon-icon-group"
+  },
+  {
+    "value": "icon-icon-headphones",
+    "name": "icon-icon-headphones"
+  },
+  {
+    "value": "icon-icon-heart",
+    "name": "icon-icon-heart"
+  },
+  {
+    "value": "icon-icon-heart-alt",
+    "name": "icon-icon-heart-alt"
+  },
+  {
+    "value": "icon-icon-hourglass",
+    "name": "icon-icon-hourglass"
+  },
+  {
+    "value": "icon-icon-house",
+    "name": "icon-icon-house"
+  },
+  {
+    "value": "icon-icon-house-alt",
+    "name": "icon-icon-house-alt"
+  },
+  {
+    "value": "icon-icon-id",
+    "name": "icon-icon-id"
+  },
+  {
+    "value": "icon-icon-id-2",
+    "name": "icon-icon-id-2"
+  },
+  {
+    "value": "icon-icon-id-2-alt",
+    "name": "icon-icon-id-2-alt"
+  },
+  {
+    "value": "icon-icon-id-alt",
+    "name": "icon-icon-id-alt"
+  },
+  {
+    "value": "icon-icon-image",
+    "name": "icon-icon-image"
+  },
+  {
+    "value": "icon-icon-images",
+    "name": "icon-icon-images"
+  },
+  {
+    "value": "icon-icon-info",
+    "name": "icon-icon-info"
+  },
+  {
+    "value": "icon-icon-info-alt",
+    "name": "icon-icon-info-alt"
+  },
+  {
+    "value": "icon-icon-key",
+    "name": "icon-icon-key"
+  },
+  {
+    "value": "icon-icon-key-alt",
+    "name": "icon-icon-key-alt"
+  },
+  {
+    "value": "icon-icon-laptop",
+    "name": "icon-icon-laptop"
+  },
+  {
+    "value": "icon-icon-lifesaver",
+    "name": "icon-icon-lifesaver"
+  },
+  {
+    "value": "icon-icon-lightbulb",
+    "name": "icon-icon-lightbulb"
+  },
+  {
+    "value": "icon-icon-lightbulb-alt",
+    "name": "icon-icon-lightbulb-alt"
+  },
+  {
+    "value": "icon-icon-like",
+    "name": "icon-icon-like"
+  },
+  {
+    "value": "icon-icon-like-alt",
+    "name": "icon-icon-like-alt"
+  },
+  {
+    "value": "icon-icon-link",
+    "name": "icon-icon-link"
+  },
+  {
+    "value": "icon-icon-link-alt",
+    "name": "icon-icon-link-alt"
+  },
+  {
+    "value": "icon-icon-loading",
+    "name": "icon-icon-loading"
+  },
+  {
+    "value": "icon-icon-lock",
+    "name": "icon-icon-lock"
+  },
+  {
+    "value": "icon-icon-lock-alt",
+    "name": "icon-icon-lock-alt"
+  },
+  {
+    "value": "icon-icon-lock-open",
+    "name": "icon-icon-lock-open"
+  },
+  {
+    "value": "icon-icon-lock-open-alt",
+    "name": "icon-icon-lock-open-alt"
+  },
+  {
+    "value": "icon-icon-mail",
+    "name": "icon-icon-mail"
+  },
+  {
+    "value": "icon-icon-mail-alt",
+    "name": "icon-icon-mail-alt"
+  },
+  {
+    "value": "icon-icon-map",
+    "name": "icon-icon-map"
+  },
+  {
+    "value": "icon-icon-map-alt",
+    "name": "icon-icon-map-alt"
+  },
+  {
+    "value": "icon-icon-menu",
+    "name": "icon-icon-menu"
+  },
+  {
+    "value": "icon-icon-menu-circle-alt",
+    "name": "icon-icon-menu-circle-alt"
+  },
+  {
+    "value": "icon-icon-menu-circle-alt2",
+    "name": "icon-icon-menu-circle-alt2"
+  },
+  {
+    "value": "icon-icon-menu-square-alt",
+    "name": "icon-icon-menu-square-alt"
+  },
+  {
+    "value": "icon-icon-menu-square-alt2",
+    "name": "icon-icon-menu-square-alt2"
+  },
+  {
+    "value": "icon-icon-mic",
+    "name": "icon-icon-mic"
+  },
+  {
+    "value": "icon-icon-mic-alt",
+    "name": "icon-icon-mic-alt"
+  },
+  {
+    "value": "icon-icon-minus-06",
+    "name": "icon-icon-minus-06"
+  },
+  {
+    "value": "icon-icon-minus-alt",
+    "name": "icon-icon-minus-alt"
+  },
+  {
+    "value": "icon-icon-minus-alt2",
+    "name": "icon-icon-minus-alt2"
+  },
+  {
+    "value": "icon-icon-minus-box",
+    "name": "icon-icon-minus-box"
+  },
+  {
+    "value": "icon-icon-mobile",
+    "name": "icon-icon-mobile"
+  },
+  {
+    "value": "icon-icon-mug",
+    "name": "icon-icon-mug"
+  },
+  {
+    "value": "icon-icon-mug-alt",
+    "name": "icon-icon-mug-alt"
+  },
+  {
+    "value": "icon-icon-music",
+    "name": "icon-icon-music"
+  },
+  {
+    "value": "icon-icon-ol",
+    "name": "icon-icon-ol"
+  },
+  {
+    "value": "icon-icon-paperclip",
+    "name": "icon-icon-paperclip"
+  },
+  {
+    "value": "icon-icon-pause",
+    "name": "icon-icon-pause"
+  },
+  {
+    "value": "icon-icon-pause-alt",
+    "name": "icon-icon-pause-alt"
+  },
+  {
+    "value": "icon-icon-pause-alt2",
+    "name": "icon-icon-pause-alt2"
+  },
+  {
+    "value": "icon-icon-pencil",
+    "name": "icon-icon-pencil"
+  },
+  {
+    "value": "icon-icon-pencil-alt",
+    "name": "icon-icon-pencil-alt"
+  },
+  {
+    "value": "icon-icon-pencil-edit",
+    "name": "icon-icon-pencil-edit"
+  },
+  {
+    "value": "icon-icon-pencil-edit-alt",
+    "name": "icon-icon-pencil-edit-alt"
+  },
+  {
+    "value": "icon-icon-pens",
+    "name": "icon-icon-pens"
+  },
+  {
+    "value": "icon-icon-pens-alt",
+    "name": "icon-icon-pens-alt"
+  },
+  {
+    "value": "icon-icon-percent",
+    "name": "icon-icon-percent"
+  },
+  {
+    "value": "icon-icon-percent-alt",
+    "name": "icon-icon-percent-alt"
+  },
+  {
+    "value": "icon-icon-phone",
+    "name": "icon-icon-phone"
+  },
+  {
+    "value": "icon-icon-piechart",
+    "name": "icon-icon-piechart"
+  },
+  {
+    "value": "icon-icon-pin",
+    "name": "icon-icon-pin"
+  },
+  {
+    "value": "icon-icon-pin-alt",
+    "name": "icon-icon-pin-alt"
+  },
+  {
+    "value": "icon-icon-plus",
+    "name": "icon-icon-plus"
+  },
+  {
+    "value": "icon-icon-plus-alt",
+    "name": "icon-icon-plus-alt"
+  },
+  {
+    "value": "icon-icon-plus-alt2",
+    "name": "icon-icon-plus-alt2"
+  },
+  {
+    "value": "icon-icon-plus-box",
+    "name": "icon-icon-plus-box"
+  },
+  {
+    "value": "icon-icon-printer",
+    "name": "icon-icon-printer"
+  },
+  {
+    "value": "icon-icon-printer-alt",
+    "name": "icon-icon-printer-alt"
+  },
+  {
+    "value": "icon-icon-profile",
+    "name": "icon-icon-profile"
+  },
+  {
+    "value": "icon-icon-pushpin",
+    "name": "icon-icon-pushpin"
+  },
+  {
+    "value": "icon-icon-pushpin-alt",
+    "name": "icon-icon-pushpin-alt"
+  },
+  {
+    "value": "icon-icon-puzzle",
+    "name": "icon-icon-puzzle"
+  },
+  {
+    "value": "icon-icon-puzzle-alt",
+    "name": "icon-icon-puzzle-alt"
+  },
+  {
+    "value": "icon-icon-question",
+    "name": "icon-icon-question"
+  },
+  {
+    "value": "icon-icon-question-alt",
+    "name": "icon-icon-question-alt"
+  },
+  {
+    "value": "icon-icon-question-alt2",
+    "name": "icon-icon-question-alt2"
+  },
+  {
+    "value": "icon-icon-quotations",
+    "name": "icon-icon-quotations"
+  },
+  {
+    "value": "icon-icon-quotations-alt",
+    "name": "icon-icon-quotations-alt"
+  },
+  {
+    "value": "icon-icon-quotations-alt2",
+    "name": "icon-icon-quotations-alt2"
+  },
+  {
+    "value": "icon-icon-refresh",
+    "name": "icon-icon-refresh"
+  },
+  {
+    "value": "icon-icon-ribbon",
+    "name": "icon-icon-ribbon"
+  },
+  {
+    "value": "icon-icon-ribbon-alt",
+    "name": "icon-icon-ribbon-alt"
+  },
+  {
+    "value": "icon-icon-rook",
+    "name": "icon-icon-rook"
+  },
+  {
+    "value": "icon-icon-search",
+    "name": "icon-icon-search"
+  },
+  {
+    "value": "icon-icon-search2",
+    "name": "icon-icon-search2"
+  },
+  {
+    "value": "icon-icon-search-alt",
+    "name": "icon-icon-search-alt"
+  },
+  {
+    "value": "icon-icon-shield",
+    "name": "icon-icon-shield"
+  },
+  {
+    "value": "icon-icon-shield-alt",
+    "name": "icon-icon-shield-alt"
+  },
+  {
+    "value": "icon-icon-star",
+    "name": "icon-icon-star"
+  },
+  {
+    "value": "icon-icon-star-alt",
+    "name": "icon-icon-star-alt"
+  },
+  {
+    "value": "icon-icon-star-half",
+    "name": "icon-icon-star-half"
+  },
+  {
+    "value": "icon-icon-star-half-alt",
+    "name": "icon-icon-star-half-alt"
+  },
+  {
+    "value": "icon-icon-stop",
+    "name": "icon-icon-stop"
+  },
+  {
+    "value": "icon-icon-stop-alt",
+    "name": "icon-icon-stop-alt"
+  },
+  {
+    "value": "icon-icon-stop-alt2",
+    "name": "icon-icon-stop-alt2"
+  },
+  {
+    "value": "icon-icon-table",
+    "name": "icon-icon-table"
+  },
+  {
+    "value": "icon-icon-tablet",
+    "name": "icon-icon-tablet"
+  },
+  {
+    "value": "icon-icon-tag",
+    "name": "icon-icon-tag"
+  },
+  {
+    "value": "icon-icon-tag-alt",
+    "name": "icon-icon-tag-alt"
+  },
+  {
+    "value": "icon-icon-tags",
+    "name": "icon-icon-tags"
+  },
+  {
+    "value": "icon-icon-tags-alt",
+    "name": "icon-icon-tags-alt"
+  },
+  {
+    "value": "icon-icon-target",
+    "name": "icon-icon-target"
+  },
+  {
+    "value": "icon-icon-tool",
+    "name": "icon-icon-tool"
+  },
+  {
+    "value": "icon-icon-toolbox",
+    "name": "icon-icon-toolbox"
+  },
+  {
+    "value": "icon-icon-toolbox-alt",
+    "name": "icon-icon-toolbox-alt"
+  },
+  {
+    "value": "icon-icon-tools",
+    "name": "icon-icon-tools"
+  },
+  {
+    "value": "icon-icon-trash",
+    "name": "icon-icon-trash"
+  },
+  {
+    "value": "icon-icon-trash-alt",
+    "name": "icon-icon-trash-alt"
+  },
+  {
+    "value": "icon-icon-ul",
+    "name": "icon-icon-ul"
+  },
+  {
+    "value": "icon-icon-upload",
+    "name": "icon-icon-upload"
+  },
+  {
+    "value": "icon-icon-vol-mute",
+    "name": "icon-icon-vol-mute"
+  },
+  {
+    "value": "icon-icon-vol-mute-alt",
+    "name": "icon-icon-vol-mute-alt"
+  },
+  {
+    "value": "icon-icon-volume-high",
+    "name": "icon-icon-volume-high"
+  },
+  {
+    "value": "icon-icon-volume-high-alt",
+    "name": "icon-icon-volume-high-alt"
+  },
+  {
+    "value": "icon-icon-volume-low",
+    "name": "icon-icon-volume-low"
+  },
+  {
+    "value": "icon-icon-volume-low-alt",
+    "name": "icon-icon-volume-low-alt"
+  },
+  {
+    "value": "icon-icon-wallet",
+    "name": "icon-icon-wallet"
+  },
+  {
+    "value": "icon-icon-wallet-alt",
+    "name": "icon-icon-wallet-alt"
+  },
+  {
+    "value": "icon-icon-zoom-in",
+    "name": "icon-icon-zoom-in"
+  },
+  {
+    "value": "icon-icon-zoom-in-alt",
+    "name": "icon-icon-zoom-in-alt"
+  },
+  {
+    "value": "icon-icon-zoom-out",
+    "name": "icon-icon-zoom-out"
+  },
+  {
+    "value": "icon-icon-zoom-out-alt",
+    "name": "icon-icon-zoom-out-alt"
+  },
+  {
+    "value": "icon-social-blogger",
+    "name": "icon-social-blogger"
+  },
+  {
+    "value": "icon-social-blogger-circle",
+    "name": "icon-social-blogger-circle"
+  },
+  {
+    "value": "icon-social-blogger-square",
+    "name": "icon-social-blogger-square"
+  },
+  {
+    "value": "icon-social-delicious",
+    "name": "icon-social-delicious"
+  },
+  {
+    "value": "icon-social-delicious-circle",
+    "name": "icon-social-delicious-circle"
+  },
+  {
+    "value": "icon-social-delicious-square",
+    "name": "icon-social-delicious-square"
+  },
+  {
+    "value": "icon-social-deviantart",
+    "name": "icon-social-deviantart"
+  },
+  {
+    "value": "icon-social-deviantart-circle",
+    "name": "icon-social-deviantart-circle"
+  },
+  {
+    "value": "icon-social-deviantart-square",
+    "name": "icon-social-deviantart-square"
+  },
+  {
+    "value": "icon-social-dribbble",
+    "name": "icon-social-dribbble"
+  },
+  {
+    "value": "icon-social-dribbble-circle",
+    "name": "icon-social-dribbble-circle"
+  },
+  {
+    "value": "icon-social-dribbble-square",
+    "name": "icon-social-dribbble-square"
+  },
+  {
+    "value": "icon-social-facebook",
+    "name": "icon-social-facebook"
+  },
+  {
+    "value": "icon-social-facebook-circle",
+    "name": "icon-social-facebook-circle"
+  },
+  {
+    "value": "icon-social-facebook-square",
+    "name": "icon-social-facebook-square"
+  },
+  {
+    "value": "icon-social-flickr",
+    "name": "icon-social-flickr"
+  },
+  {
+    "value": "icon-social-flickr-circle",
+    "name": "icon-social-flickr-circle"
+  },
+  {
+    "value": "icon-social-flickr-square",
+    "name": "icon-social-flickr-square"
+  },
+  {
+    "value": "icon-social-googledrive",
+    "name": "icon-social-googledrive"
+  },
+  {
+    "value": "icon-social-googledrive-alt2",
+    "name": "icon-social-googledrive-alt2"
+  },
+  {
+    "value": "icon-social-googledrive-square",
+    "name": "icon-social-googledrive-square"
+  },
+  {
+    "value": "icon-social-googleplus",
+    "name": "icon-social-googleplus"
+  },
+  {
+    "value": "icon-social-googleplus-circle",
+    "name": "icon-social-googleplus-circle"
+  },
+  {
+    "value": "icon-social-googleplus-square",
+    "name": "icon-social-googleplus-square"
+  },
+  {
+    "value": "icon-social-instagram",
+    "name": "icon-social-instagram"
+  },
+  {
+    "value": "icon-social-instagram-circle",
+    "name": "icon-social-instagram-circle"
+  },
+  {
+    "value": "icon-social-instagram-square",
+    "name": "icon-social-instagram-square"
+  },
+  {
+    "value": "icon-social-linkedin",
+    "name": "icon-social-linkedin"
+  },
+  {
+    "value": "icon-social-linkedin-circle",
+    "name": "icon-social-linkedin-circle"
+  },
+  {
+    "value": "icon-social-linkedin-square",
+    "name": "icon-social-linkedin-square"
+  },
+  {
+    "value": "icon-social-myspace",
+    "name": "icon-social-myspace"
+  },
+  {
+    "value": "icon-social-myspace-circle",
+    "name": "icon-social-myspace-circle"
+  },
+  {
+    "value": "icon-social-myspace-square",
+    "name": "icon-social-myspace-square"
+  },
+  {
+    "value": "icon-social-picassa",
+    "name": "icon-social-picassa"
+  },
+  {
+    "value": "icon-social-picassa-circle",
+    "name": "icon-social-picassa-circle"
+  },
+  {
+    "value": "icon-social-picassa-square",
+    "name": "icon-social-picassa-square"
+  },
+  {
+    "value": "icon-social-pinterest",
+    "name": "icon-social-pinterest"
+  },
+  {
+    "value": "icon-social-pinterest-circle",
+    "name": "icon-social-pinterest-circle"
+  },
+  {
+    "value": "icon-social-pinterest-square",
+    "name": "icon-social-pinterest-square"
+  },
+  {
+    "value": "icon-social-rss",
+    "name": "icon-social-rss"
+  },
+  {
+    "value": "icon-social-rss-circle",
+    "name": "icon-social-rss-circle"
+  },
+  {
+    "value": "icon-social-rss-square",
+    "name": "icon-social-rss-square"
+  },
+  {
+    "value": "icon-social-share",
+    "name": "icon-social-share"
+  },
+  {
+    "value": "icon-social-share-circle",
+    "name": "icon-social-share-circle"
+  },
+  {
+    "value": "icon-social-share-square",
+    "name": "icon-social-share-square"
+  },
+  {
+    "value": "icon-social-skype",
+    "name": "icon-social-skype"
+  },
+  {
+    "value": "icon-social-skype-circle",
+    "name": "icon-social-skype-circle"
+  },
+  {
+    "value": "icon-social-skype-square",
+    "name": "icon-social-skype-square"
+  },
+  {
+    "value": "icon-social-spotify",
+    "name": "icon-social-spotify"
+  },
+  {
+    "value": "icon-social-spotify-circle",
+    "name": "icon-social-spotify-circle"
+  },
+  {
+    "value": "icon-social-spotify-square",
+    "name": "icon-social-spotify-square"
+  },
+  {
+    "value": "icon-social-stumbleupon-circle",
+    "name": "icon-social-stumbleupon-circle"
+  },
+  {
+    "value": "icon-social-stumbleupon-square",
+    "name": "icon-social-stumbleupon-square"
+  },
+  {
+    "value": "icon-social-tumbleupon",
+    "name": "icon-social-tumbleupon"
+  },
+  {
+    "value": "icon-social-tumblr",
+    "name": "icon-social-tumblr"
+  },
+  {
+    "value": "icon-social-tumblr-circle",
+    "name": "icon-social-tumblr-circle"
+  },
+  {
+    "value": "icon-social-tumblr-square",
+    "name": "icon-social-tumblr-square"
+  },
+  {
+    "value": "icon-social-twitter",
+    "name": "icon-social-twitter"
+  },
+  {
+    "value": "icon-social-twitter-circle",
+    "name": "icon-social-twitter-circle"
+  },
+  {
+    "value": "icon-social-twitter-square",
+    "name": "icon-social-twitter-square"
+  },
+  {
+    "value": "icon-social-vimeo",
+    "name": "icon-social-vimeo"
+  },
+  {
+    "value": "icon-social-vimeo-circle",
+    "name": "icon-social-vimeo-circle"
+  },
+  {
+    "value": "icon-social-vimeo-square",
+    "name": "icon-social-vimeo-square"
+  },
+  {
+    "value": "icon-social-wordpress",
+    "name": "icon-social-wordpress"
+  },
+  {
+    "value": "icon-social-wordpress-circle",
+    "name": "icon-social-wordpress-circle"
+  },
+  {
+    "value": "icon-social-wordpress-square",
+    "name": "icon-social-wordpress-square"
+  },
+  {
+    "value": "icon-social-youtube",
+    "name": "icon-social-youtube"
+  },
+  {
+    "value": "icon-social-youtube-circle",
+    "name": "icon-social-youtube-circle"
+  },
+  {
+    "value": "icon-social-youtube-square",
+    "name": "icon-social-youtube-square"
+  }
+]

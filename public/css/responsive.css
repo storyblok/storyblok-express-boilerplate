@@ -1,0 +1,171 @@
+@media (max-width: 991px) {
+  /**
+	 * ====================================
+	 * Features Style 1
+	 * ====================================
+	 */
+  .features-section-1 .features-image {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .vertical-middle {
+    display: block !important;
+  }
+  /**
+	 * ====================================
+	 * Features Style 3 
+	 * ====================================
+	 */
+  .features-section-3 .features-image img {
+    float: none !important;
+    margin: auto;
+  }
+  .features-section-3 .text-left,
+  .features-section-3 p,
+  .features-section-3 .btn-form {
+    text-align: center;
+  }
+  .features-section-3 .features-list * {
+    text-align: left !important;
+  }
+  .app-swiper-slide .screenshots-thumb {
+    margin-top: 60px;
+  }
+  .app-swiper-slide .swiper-pagination .swiper-pagination-bullet {
+    float: none;
+  }
+  .app-swiper-slide .features-content {
+    margin-top: 0;
+  }
+}
+@media (max-width: 767px) {
+  /**
+	 * =======================
+	 * Navigation
+	 * =======================
+	 */
+  .main-navbar-top .navbar-nav {
+    padding-top: 11px;
+    padding-right: 15px;
+  }
+  .main-navbar-top .navbar-nav li {
+    display: inline-block;
+    float: left;
+  }
+  .main-navbar-top .navbar-nav li .btn-nav {
+    padding: 0px 10px;
+    line-height: 40px;
+  }
+  .main-navbar-top .navbar-collapse {
+    border-top: 1px solid;
+  }
+  .main-navbar-top .okayNav__nav--invisible {
+    top: 63px;
+  }
+  .main-navbar-top .okayNav__nav--invisible li {
+    display: inline-block;
+  }
+  /**
+	 * ===============================
+	 * Header Style 1
+	 * ===============================
+	*/
+  .header-section-1 .logo-link {
+    margin-bottom: 45px;
+  }
+  .header-section-1 .image-group {
+    margin-top: 50px;
+  }
+  /**
+	 * ====================================
+	 * Features Style 2 
+	 * ====================================
+	 */
+  .features-section-2 .features-item {
+    margin-bottom: 25px;
+  }
+  .features-section-2 .features-item::after,
+  .features-section-2 .features-item::before {
+    content: initial;
+  }
+  /**
+	 * ====================================
+	 * Features Style 3 
+	 * ====================================
+	 */
+  .features-section-3 .features-image img {
+    width: 100%;
+    max-width: 100%;
+  }
+  /**
+	 * ====================================
+	 * Features Style 4
+	 * ====================================
+	 */
+  .features-section-4 .single-form .btn {
+    margin: 0px !important;
+  }
+  .features-section-4 .single-form .input-group,
+  .features-section-4 .single-form .form-control,
+  .features-section-4 .single-form .btn {
+    display: block;
+    width: 100%;
+  }
+  .features-section-4 .single-form .form-control {
+    border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    -ms-border-radius: 4px 4px 0 0;
+    -o-border-radius: 4px 4px 0 0;
+  }
+  /**
+	 * ====================================
+	 * Footer Section 1
+	 * ====================================
+	 */
+  .footer-section-1 .text-right,
+  .footer-section-1 .text-left {
+    text-align: center;
+  }
+  .footer-section-1 .each-item {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    border-right: 0px solid;
+    border-bottom: 1px solid;
+  }
+  .footer-section-1 .each-item:last-child {
+    border-bottom: 0px solid;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  /**
+	 * ====================================
+	 * Contact Form
+	 * ====================================
+	 */
+  .contact-form .single-form {
+    padding: 15px 0px;
+  }
+}
+@media (max-width: 480px) {
+  /**
+	 * ===============================
+	 * Header Style 1
+	 * ===============================
+	*/
+  .header-section-1 .image-group .home-left,
+  .header-section-1 .image-group .home-right {
+    top: 25px;
+  }
+}
+@media (max-width: 320px) {
+  /**
+	 * ===============================
+	 * Header Style 1
+	 * ===============================
+	*/
+  .header-section-1 .image-group .home-left,
+  .header-section-1 .image-group .home-right {
+    top: 15px;
+  }
+}
