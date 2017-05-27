@@ -23,16 +23,31 @@
 <body>
   {{{body}}}
 
-  <script type="text/javascript" src="//app.storyblok.com/storyblok-latest.js"></script>
-  <script type="text/javascript">
-    storyblok.init();
-    storyblok.on('change', function() {
-      window.location.reload(true);
-    });
-  </script>
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script src="/public/bootstrap/js/bootstrap.min.js"></script>
   <script src="/public/js/scripts.js"></script>
+
+  <script type="text/javascript" src="//app.storyblok.com/f/storyblok-latest.js"></script>
+  <script type="text/javascript">
+    storyblok.init();
+
+    // On the change event refresh the window
+    storyblok.on('change', function() {
+      window.location.reload(true);
+    });
+
+    // Listen on the published event to clear the cache
+    storyblok.on('published', function() {
+      $.ajax({
+        url: '/clear_cache'
+      })
+      .done(function() {
+        console.log('cache cleared!');
+      })
+      .fail(function() {
+        console.log('error clearing cache');
+      });
+    });
+  </script>
 </body>
 </html>

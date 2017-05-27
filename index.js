@@ -21,7 +21,7 @@ let Storyblok = new StoryblokClient({
 
 app.use('/public', express.static('public'));
 
-// 3. Define a route for the publishing hook
+// 3. Define a clear cache route for the publishing hook.
 app.get('/clear_cache', function(req, res) {
   Storyblok.flushCache();
   res.send('Cache flushed!');
