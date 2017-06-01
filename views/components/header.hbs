@@ -5,7 +5,7 @@
       <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
         <a class="navbar-brand light-logo" href="/">
           {{#if logo}}
-            <img src="{{img logo size='60x0' }}" alt="" class="img-responsive">
+            <img data-srcset="{{img logo size='0x40' }} 1x,{{img logo size='0x80' }} 2x" alt="Logo" class="lazyload img-responsive">
           {{else}}
             <img src="/public/images/logo-color.png" alt="" class="img-responsive">
           {{/if}}

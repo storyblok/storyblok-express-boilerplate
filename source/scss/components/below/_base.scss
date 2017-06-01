@@ -616,11 +616,6 @@ section.section {
   background-color: #ffffff;
 }
 
-.header-section-1 .logo-link {
-  max-width: 100px;
-  margin: 30px 0;
-}
-
 .header-section-1 .section-separator {
   padding-top: 50px;
 }
@@ -964,6 +959,7 @@ section.section {
 
 .footer-section-1 .each-item {
   border-right: 1px solid;
+  min-height: 75px;
 }
 
 .footer-section-1 .each-item .inner {
@@ -1282,10 +1278,6 @@ body.okayNav-loaded {
 
   .main-navbar-top .okayNav__nav--invisible li {
     display: inline-block;
-  }
-
-  .header-section-1 .logo-link {
-    margin-bottom: 45px;
   }
 
   .header-section-1 .image-group {

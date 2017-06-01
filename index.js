@@ -55,7 +55,8 @@ app.get('/*', function(req, res) {
     })
     .then((response) => {
       res.render('index', {
-        story: response.body.story
+        story: response.body.story,
+        params: req.query
       });
     })
     .catch((error) => {
