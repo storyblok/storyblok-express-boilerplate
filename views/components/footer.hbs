@@ -18,7 +18,9 @@
 
           <a href="/" class="logo-link">
             {{#if logo}}
-              <img src="{{ logo }}" alt="" class="img-responsive logo">
+              <img
+                data-src="{{img logo size='200x0' }}"
+                class="lazyload img-responsive logo" />
             {{else}}
               <img src="/public/images/logo-color.png" alt="" class="img-responsive logo">
             {{/if}}

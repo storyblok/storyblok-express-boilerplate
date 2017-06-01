@@ -22,7 +22,11 @@
           <div class="vertical-middle col-md-4">
             <div class="features-image">
               {{#if image}}
-                <img src="{{img image size='600x0' }}" alt="">
+                <img
+                  data-sizes="auto"
+                  data-src="{{img image size='300x0' }}"
+                  data-srcset="{{img image size='300x0' }} 300w, {{img image size='600x0' }} 600w, {{img image size='900x0' }} 900w"
+                  class="lazyload" />
               {{else}}
                 <img src="/public/images/feature-phone.png" alt="">
               {{/if}}

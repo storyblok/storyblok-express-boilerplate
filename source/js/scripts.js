@@ -1,3 +1,6 @@
+import lazysizes from 'lazysizes';
+
+
 (function($) {
     
   'use strict';

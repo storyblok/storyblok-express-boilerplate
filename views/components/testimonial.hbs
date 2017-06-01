@@ -4,7 +4,9 @@
     <blockquote>{{ quote }}</blockquote>
     <p class="client-profile">
       {{#if image}}
-        <img src="{{img image size='50x50' }}" alt="" class="client-img img-responsive">
+        <img
+          data-src="{{img image size='50x50' }}"
+          class="lazyload client-img img-responsive" />
       {{/if}}
       <span class="detail-group text-left">
         <span class="name">{{ name }}</span>

@@ -12,6 +12,7 @@
     "compression": "^1.6.2",
     "express": "^4.15.3",
     "express-handlebars": "^3.0.0",
+    "express-minify-html": "^0.11.3",
     "marked": "^0.3.6",
     "storyblok-node-client": "^1.0.0"
   },
@@ -27,7 +28,8 @@
     "gulp-sass": "^3.1.0",
     "gulp-sass-glob": "^1.0.8",
     "gulp-watch": "^4.3.11",
-    "gulp-webpack": "^1.5.0"
+    "gulp-webpack": "^1.5.0",
+    "lazysizes": "^4.0.0-rc1"
   },
   "scripts": {
     "start": "node index.js",

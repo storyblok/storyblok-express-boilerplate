@@ -6,6 +6,7 @@ const app = express();
 const url = require('url');
 const helpers = require('./helpers');
 const compression = require('compression');
+const minifyHTML = require('express-minify-html');
 
 // 1. Require the Storyblok node client
 const StoryblokClient = require('storyblok-node-client');
@@ -18,6 +19,19 @@ let Storyblok = new StoryblokClient({
     type: 'memory'
   }
 });
+
+app.use(minifyHTML({
+    override:      true,
+    exception_url: false,
+    htmlMinifier: {
+        removeComments:            false,
+        collapseWhitespace:        true,
+        collapseBooleanAttributes: true,
+        removeAttributeQuotes:     true,
+        removeEmptyAttributes:     true,
+        minifyJS:                  true
+    }
+}));
 
 app.use(compression());
 
