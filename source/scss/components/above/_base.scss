@@ -796,6 +796,7 @@ section.section {
 }
 
 .features-section-3 .features-image img {
+  width: 100%;
   max-width: 465px;
 }
 
@@ -1298,11 +1299,6 @@ body.okayNav-loaded {
   .features-section-2 .features-item::after,
   .features-section-2 .features-item::before {
     content: initial;
-  }
-
-  .features-section-3 .features-image img {
-    width: 100%;
-    max-width: 100%;
   }
 
   .features-section-4 .single-form .btn {

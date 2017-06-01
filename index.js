@@ -5,6 +5,7 @@ const exphbs = require('express-handlebars');
 const app = express();
 const url = require('url');
 const helpers = require('./helpers');
+const compression = require('compression');
 
 // 1. Require the Storyblok node client
 const StoryblokClient = require('storyblok-node-client');
@@ -19,6 +20,7 @@ let Storyblok = new StoryblokClient({
 });
 
 app.use('/public', express.static('public'));
+app.use(compression());
 
 // 3. Define a clear cache route for the publishing hook.
 app.get('/clear_cache', function(req, res) {

@@ -7,7 +7,12 @@
         <div class="features-image col-md-6 col-md-push-6">
 
           {{#if image}}
-            <img src="{{img image size='600x0' }}" alt="App Picture" class="img-responsive pull-right">
+            <img
+              srcset="{{img image size='300x0' }} 300w, {{img image size='768x0' }} 768w, {{img image size='1024x0' }} 1024w"
+              sizes="(min-width: 768px) 50vw, 100vw"
+              src="{{img image size='465x0' }}"
+              alt="{{ image_alt_text }}"
+              class="img-responsive pull-right">
           {{else}}
             <img src="/public/images/2-phone-right.png" alt="App Picture" class="img-responsive pull-right">
           {{/if}}
@@ -19,7 +24,12 @@
         <div class="features-image col-md-6">
 
           {{#if image}}
-            <img src="{{img image size='600x0' }}" alt="App Picture" class="img-responsive pull-left">
+            <img
+              srcset="{{img image size='300x0' }} 300w, {{img image size='768x0' }} 768w, {{img image size='1024x0' }} 1024w"
+              sizes="(min-width: 768px) 50vw, 100vw"
+              src="{{img image size='465x0' }}"
+              alt="{{ image_alt_text }}"
+              class="img-responsive pull-left">
           {{else}}
             <img src="/public/images/2-phone-left.png" alt="App Picture" class="img-responsive pull-left">
           {{/if}}

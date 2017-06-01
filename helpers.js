@@ -37,6 +37,9 @@ module.exports = {
 
   img: function(content, block) {
     var size = block.hash.size;
+    if (!content) {
+      return  ''
+    }
     var img = content.replace('//a.storyblok.com', '');
     img = '//img2.storyblok.com' + (size ? '/' + size : '') + img;
     return img;
