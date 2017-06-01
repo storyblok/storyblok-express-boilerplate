@@ -19,8 +19,10 @@ let Storyblok = new StoryblokClient({
   }
 });
 
-app.use('/public', express.static('public'));
 app.use(compression());
+
+const oneYear = 1 * 365 * 24 * 60 * 60 * 1000;
+app.use('/public', express.static('public', { maxAge: oneYear }));
 
 // 3. Define a clear cache route for the publishing hook.
 app.get('/clear_cache', function(req, res) {
