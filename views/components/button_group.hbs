@@ -1,0 +1,4 @@
+{{{ _editable }}}
+<div class="btn-form {{#each style}} {{ this }}{{/each}}">
+  {{#each body}}{{> (lookup . 'component') }}{{/each}}
+</div>

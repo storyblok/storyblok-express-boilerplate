@@ -1,0 +1,15 @@
+<div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2 col-xs-12">
+  {{{ _editable }}}
+  <div class="testimonial">
+    <blockquote>{{ quote }}</blockquote>
+    <p class="client-profile">
+      {{#if image}}
+        <img src="{{img image size='50x50' }}" alt="" class="client-img img-responsive">
+      {{/if}}
+      <span class="detail-group text-left">
+        <span class="name">{{ name }}</span>
+        <span class="position">{{ company }}</span>
+      </span>
+    </p>
+  </div>
+</div>

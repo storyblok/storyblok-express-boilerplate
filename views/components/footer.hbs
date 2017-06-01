@@ -1,0 +1,51 @@
+{{{ _editable }}}
+<footer class="footer-section-1" id="footer">
+  <div class="container">
+    <div class="row section-separator">
+
+      <div class="each-item col-sm-5">
+        <div class="inner text-right">
+
+          <p class="sub-title">{{ contact_title }}</p>
+          <a href="{{ contact_link }}">
+            <h5 class="title">{{ contact_button }}</h5>
+          </a>
+
+        </div>
+      </div>
+      <div class="each-item col-sm-2">
+        <div class="inner text-center">
+
+          <a href="/" class="logo-link">
+            {{#if logo}}
+              <img src="{{ logo }}" alt="" class="img-responsive logo">
+            {{else}}
+              <img src="/public/images/logo-color.png" alt="" class="img-responsive logo">
+            {{/if}}
+          </a>
+
+        </div>
+      </div>
+      <div class="each-item col-sm-5">
+        <div class="inner text-left">
+
+          <p class="sub-title">{{ social_title }}</p>
+          <ul class="nav social-icon">
+            {{#each social_icons}}
+            <li>
+              <a href="{{ link }}">
+                <span>{{ label }}</span>
+                <svg class="ico">
+                  <use xlink:href="{{asset 'public/icons/icons.svg#' }}{{ icon.icon }}"></use>
+                </svg>
+              </a>
+            </li>
+            {{/each}}
+          </ul>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</footer>

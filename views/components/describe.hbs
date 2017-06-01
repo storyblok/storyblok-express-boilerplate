@@ -1,106 +1,43 @@
+{{{ _editable }}}
 <section class="features-section-3 section bg-dark" id="describe">
   <div class="container">
     <div class="row section-separator">
 
-      <div class="features-image col-md-6 col-md-push-6">
+      {{#unless image_on_left}}
+        <div class="features-image col-md-6 col-md-push-6">
 
-        <img src="/public/images/2-phone-right.png" alt="App Picture" class="img-responsive pull-right">
+          {{#if image}}
+            <img src="{{img image size='600x0' }}" alt="App Picture" class="img-responsive pull-right">
+          {{else}}
+            <img src="/public/images/2-phone-right.png" alt="App Picture" class="img-responsive pull-right">
+          {{/if}}
 
-      </div>
-      <div class="features-content m-t-50 col-md-6 col-md-pull-6">
+        </div>
+      {{/unless}}
+
+      {{#if image_on_left}}
+        <div class="features-image col-md-6">
+
+          {{#if image}}
+            <img src="{{img image size='600x0' }}" alt="App Picture" class="img-responsive pull-left">
+          {{else}}
+            <img src="/public/images/2-phone-left.png" alt="App Picture" class="img-responsive pull-left">
+          {{/if}}
+
+        </div>
+      {{/if}}
+
+      <div class="features-content m-t-50 col-md-6{{#unless image_on_left}} col-md-pull-6{{/unless}}">
         <div class="section-header text-left m-b-30">
-          <h2 class="section-heading gradient-text-full">Describe the app</h2>
+          <h2 class="section-heading gradient-text-full">{{ title }}</h2>
         </div>
 
         <div class="detail">
-          <p>Earned media human-centered design 360 campaign cortado intuitive pitch deck agile prototype sticky note unicorn. Thnker-maker-doer hacker innovate earned media waterfall is so 2000 and late 360 campaign lang shadow fund. Convergence co-working quantitaive experiential venture capital.</p>
-          <p>Human-centered desing grok experiential human-centered design workflow affordances integrate actionable insight. Food-truck cortado moleskine paign.</p>
+          {{{markdown description }}}
         </div>
 
-        <div class="btn-form m-t-50 btn-scroll">  
-          <a href="#download" class="btn btn-fill">DOWNLOAD APP</a>
-          <a href="https://vimeo.com/45830194" class="btn btn-icon left-icon btn-border popup-video">
-            <i class="icon icon-arrow-triangle-right-alt2"></i>
-            <span class="btn-text">WATCH VIDEO</span>
-          </a>
-        </div>
-
+        {{#each body}}{{> (lookup . 'component') }}{{/each}}
       </div>
-    </div>
-  </div>
-</section>
-
-
-<section class="features-section-3 section" id="describe-2">
-  <div class="container">
-    <div class="row section-separator">
-
-      <div class="features-image col-md-6">
-
-        <img src="/public/images/2-phone-left.png" alt="App Image" class="img-responsive pull-left">
-
-      </div>
-      <div class="features-content m-t-50 col-md-6 ">
-
-        <div class="section-header text-left m-b-30">
-          <h2 class="section-heading gradient-text-full">Endless possiblity</h2>
-        </div>
-
-        <div class="detail">
-          <p>Earned media human-centered design 360 campaign cortado intuitive pitch deck agile prototype sticky note unicorn. Thnker-maker-doer hacker innovate earned media waterfall is so 2000 and late 360 campaign lang shadow fund.</p>
-        </div>
-
-        <div class="row features-list">
-
-          <div class="col-sm-6">
-            <div class="media">
-              <div class="media-left">
-                <i class="icon gradient-text-full icon-icon-lock-alt"></i>
-              </div>
-              <div class="media-body">
-                <h5 class="title">Secure Platform</h5>
-                <p>Earned media human-centered design 360 campaign</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="media">
-              <div class="media-left">
-                <i class="icon gradient-text-full icon-icon-clock-alt"></i>
-              </div>
-              <div class="media-body">
-                <h5 class="title">Fast &amp; Reliable</h5>
-                <p>Earned media human-centered design 360 campaign</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="media">
-              <div class="media-left">
-                <i class="icon gradient-text-full icon-icon-image"></i>
-              </div>
-              <div class="media-body">
-                <h5 class="title">Unlimited Photos</h5>
-                <p>Earned media human-centered design 360 campaign</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-6">
-            <div class="media">
-              <div class="media-left">
-                <i class="icon gradient-text-full icon-icon-gift-alt"></i>
-              </div>
-              <div class="media-body">
-                <h5 class="title">Monthly Rewards</h5>
-                <p>Earned media human-centered design 360 campaign</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
     </div>
   </div>
 </section>

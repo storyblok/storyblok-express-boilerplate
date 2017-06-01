@@ -1,7 +1,9 @@
 {{{ _editable }}}
 <div class="feature-item text-center">
   <div class="gradient-border">
-    <i class="icon features-icon gradient-text {{ icon }}"></i>
+    <svg class="ico features-icon gradient-text">
+      <use xlink:href="{{asset 'public/icons/icons.svg#' }}{{ icon.icon }}"></use>
+    </svg>
   </div>
   <div class="feature-content text-center">
     <h3 class="title">{{ title }}</h3>

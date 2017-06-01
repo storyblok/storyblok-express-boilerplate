@@ -3,7 +3,6 @@
 const express = require('express');
 const exphbs = require('express-handlebars');
 const app = express();
-const fs = require('fs');
 const url = require('url');
 const helpers = require('./helpers');
 
@@ -27,27 +26,10 @@ app.get('/clear_cache', function(req, res) {
   res.send('Cache flushed!');
 });
 
-// 4. Define a route for the root of the site 
-// which gets the story with the slug 'home'
-app.get('/', function(req, res) {
-  Storyblok
-    .get('stories/home', {
-      version: req.query._storyblok ? 'draft': 'published'
-    })
-    .then((response) => {
-      res.render('index', {
-        story: response.body.story
-      });
-    })
-    .catch((error) => {
-      console.log(error);
-      res.send('An ' + error.statusCode.toString() + ' error ocurred. Please take a look at your error log.');
-    });
-});
-
-// 5. Define a wildcart route for getting other stories from their slug
+// 4. Define a wildcart route for getting other stories from their slug
 app.get('/*', function(req, res) {
   var path = url.parse(req.url).pathname;
+  path = path == '/' ? 'home' : path;
 
   Storyblok
     .get(`stories/${path}`, {
@@ -79,6 +61,6 @@ app.engine('.hbs', exphbs({
 app.set('view engine', '.hbs');
 app.set('views', 'views')
 
-app.listen(4300, function() {
+app.listen(process.env.PORT || 4300, function() {
   console.log('Example app listening on port 4300!');
 });

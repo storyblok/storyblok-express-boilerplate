@@ -1,0 +1,7 @@
+<div class="row features-list m-t-40">
+  {{#each body}}
+    <div class="col-sm-6">
+      {{> (lookup . 'component') }}
+    </div>
+  {{/each}}
+</div>

@@ -1,32 +1,41 @@
+{{{ _editable }}}
 <section class="features-section-4 section bg-3" id="subscribe">
   <div class="overlay-color">
     <div class="container">
       <div class="row section-separator light-text">
         <div class="section-header col-md-10 col-md-offset-1">
-          <h2 class="section-heading">Newsletter Form</h2>
-          <p class="sub-title">If your app is not released yet. You can use this form to collect emails of the user.</p>
+          <h2 class="section-heading">{{ title }}</h2>
+          {{#if subtitle}}
+            <p class="sub-title">{{ subtitle }}</p>
+          {{/if}}
         </div>
 
         <div class="part-1 col-sm-6 col-sm-offset-3 col-xs-12">
           <div class="row">
             <div class="col-md-10 col-md-offset-1">
-              <form method="post" class="single-form text-center">
+              {{#ifEquals provider 'getrevue.co'}}
+                <form class="single-form text-center" action="{{ signup_url }}" method="post" target="_blank">
+              {{else}}
+                <form class="single-form text-center" action="{{ signup_url }}" method="post" target="_blank">
+              {{/ifEquals}}
                 <div class="container-fluid">
-
-                  <p class="subscription-success"></p>
-                  <p class="subscription-failed"></p>
-
                   <div class="row">
                     <div class="input-group">
 
-                      <input type="email" id="subscriber-email" name="email" placeholder="Enter your email address" class="form-control">
+                      {{#ifEquals provider 'getrevue.co'}}
+                        <input class="form-control" placeholder="Your email address..." type="email" name="member[email]" id="member_email">
+                      {{else}}
+                        <input class="form-control" placeholder="Your email address..." type="email" name="EMAIL" id="member_email">
+                      {{/ifEquals}}
+                      <label class="hidden" for="member_email">Email address</label>
 
                       <div class="input-group-btn">
-                        <button class="btn btn-fill">SUBSCRIBE</button>
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d35d0a71881e5ab29895337c8_f7d3c6dd74" tabindex="-1" value=""></div>
+                        <input type="hidden" value="Subscribe" name="member[subscribe]">
+                        <button type="submit" class="btn btn-fill">SUBSCRIBE</button>
                       </div>
 
                     </div>
-
                   </div>
                 </div>
               </form>

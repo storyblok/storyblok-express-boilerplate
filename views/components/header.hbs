@@ -1,0 +1,25 @@
+{{{ _editable }}}
+<header id="header" class="okayNav-header navbar-fixed-top main-navbar-top">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-3 col-sm-3 col-xs-6">
+        <a class="navbar-brand light-logo" href="/">
+          {{#if logo}}
+            <img src="{{ logo }}" alt="" class="img-responsive">
+          {{else}}
+            <img src="/public/images/logo-color.png" alt="" class="img-responsive">
+          {{/if}}
+        </a>
+      </div>
+      <div class="col-lg-9 col-md-9 col-sm-9 col-xs-6">
+        <nav role="navigation" class="okayNav pull-right" id="js-navbar-menu">
+          <ul id="navbar-nav" class="navbar-nav">
+            {{#each navigation}}
+            <li><a class="btn-nav" href="{{ link }}">{{ label }}</a></li>
+            {{/each}}
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>

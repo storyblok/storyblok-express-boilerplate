@@ -345,3 +345,8 @@ section.section {
     border-bottom-color: rgba(0, 0, 0, 0.08);
   }
 }
+
+.ico--colored,
+.features-icon {
+  color: #de496c;
+}
