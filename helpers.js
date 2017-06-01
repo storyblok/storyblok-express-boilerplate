@@ -1,3 +1,7 @@
+'use strict';
+
+const marked = require('marked');
+
 // Handlebar helpers
 
 module.exports = {
@@ -21,5 +25,27 @@ module.exports = {
     }
 
     return ret;
+  },
+
+  asset: function(content) {
+    return 'http://localhost:4300/' + content;
+  },
+
+  markdown: function(content) {
+    return marked(content);
+  },
+
+  img: function(content, block) {
+    var size = block.hash.size;
+    var img = content.replace('//a.storyblok.com', '');
+    img = '//img2.storyblok.com' + (size ? '/' + size : '') + img;
+    return img;
+  },
+
+  ifEquals: function(v1, v2, block) {
+    if(v1 === v2) {
+      return block.fn(this);
+    }
+    return block.inverse(this);
   }
 }

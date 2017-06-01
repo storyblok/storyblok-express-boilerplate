@@ -6,15 +6,20 @@
   "dependencies": {
     "express": "^4.15.3",
     "express-handlebars": "^3.0.0",
+    "marked": "^0.3.6",
     "storyblok-node-client": "^1.0.0"
   },
   "devDependencies": {},
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "storyblok": {
     "theme-id": "2"
+  },
+  "engines": {
+    "node": "7.10.0"
   }
 }
