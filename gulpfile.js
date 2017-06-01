@@ -69,8 +69,8 @@ gulp.task('browsersync', ['nodemon'], function () {
   })
 
   // gulp.watch('views/**/*.hbs', ['scripts'])
-  gulp.watch(['source/scss/components/above/**/*.scss', 'source/scss/_variables.scss'], ['styles:above'])
-  gulp.watch(['source/scss/components/below/**/*.scss', 'source/scss/_variables.scss'], ['styles:below'])
+  gulp.watch(['source/scss/components/above/**/*.scss', 'source/scss/above.scss', 'source/scss/_variables.scss'], ['styles:above'])
+  gulp.watch(['source/scss/components/below/**/*.scss', 'source/scss/below.scss', 'source/scss/_variables.scss'], ['styles:below'])
   gulp.watch('source/js/**/*.js', ['scripts'])
 })
 

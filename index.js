@@ -24,12 +24,12 @@ app.use(minifyHTML({
     override:      true,
     exception_url: false,
     htmlMinifier: {
-        removeComments:            false,
-        collapseWhitespace:        true,
-        collapseBooleanAttributes: true,
-        removeAttributeQuotes:     true,
-        removeEmptyAttributes:     true,
-        minifyJS:                  true
+      removeComments:            false,
+      collapseWhitespace:        true,
+      collapseBooleanAttributes: false,
+      removeAttributeQuotes:     false,
+      removeEmptyAttributes:     false,
+      minifyJS:                  false
     }
 }));
 

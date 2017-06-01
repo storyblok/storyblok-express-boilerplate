@@ -14,9 +14,10 @@
   <link rel="apple-touch-icon" href="/public/images/apple-touch-icon.png">
   <link rel="apple-touch-icon" sizes="72x72" href="/public/images/apple-touch-icon-72x72.png">
   <link rel="apple-touch-icon" sizes="114x114" href="/public/images/apple-touch-icon-114x114.png">
-  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
-  <link rel="stylesheet" href="/public/css/above.css">
-  <link rel="stylesheet" href="/public/css/colors/color-{{#if story.content.color_variation}}{{ story.content.color_variation }}{{else}}1{{/if}}.css" type="text/css" id="color-scheme" />
+  {{!-- <link rel="stylesheet" href="/public/css/above.css"> --}}
+  <style type="text/css">
+    {{> 'above_fold_css'}}
+  </style>
 </head>
 <body>
   {{{body}}}
@@ -48,3 +49,6 @@
   </script>
 </body>
 </html>
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/public/css/below.css">
+<link rel="stylesheet" href="/public/css/colors/color-{{#if story.content.color_variation}}{{ story.content.color_variation }}{{else}}1{{/if}}.css" type="text/css" id="color-scheme" />
