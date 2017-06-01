@@ -15,12 +15,10 @@
     {{> 'above_fold_css'}}
   </style>
   {{#if params._storyblok}}
-    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="/public/css/below.css?v=3">
-    <link rel="stylesheet" href="/public/css/colors/color-{{#if story.content.color_variation}}{{ story.content.color_variation }}{{else}}1{{/if}}.css" type="text/css" id="color-scheme" />
+    {{> 'stylesheet_group'}}
   {{/if}}
 </head>
-<body>
+<body class="color--{{#if story.content.color_variation}}{{ story.content.color_variation }}{{else}}1{{/if}}">
   {{{body}}}
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
@@ -52,7 +50,5 @@
 </body>
 </html>
 {{#unless params._storyblok}}
-<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="/public/css/below.css?v=3">
-<link rel="stylesheet" href="/public/css/colors/color-{{#if story.content.color_variation}}{{ story.content.color_variation }}{{else}}1{{/if}}.css" type="text/css" id="color-scheme" />
+  {{> 'stylesheet_group'}}
 {{/unless}}
