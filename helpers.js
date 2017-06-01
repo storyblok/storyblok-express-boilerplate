@@ -28,7 +28,7 @@ module.exports = {
   },
 
   asset: function(content) {
-    return 'http://localhost:4300/' + content;
+    return '/' + content;
   },
 
   markdown: function(content) {
