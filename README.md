@@ -33,8 +33,9 @@ git clone https://github.com/storyblok/storyblok-express-boilerplate
 After you cloned the repository execute following commands:
 
 1. `npm install`
-2. `node ./index.js` or `nodemon ./index.js`
-3. Open your brower at localhost:4300
+2. `gulp`
+3. Make sure you have created a space on app.storyblok.com with the location pointing to `http://localhost:4301`.
+3. To copy over the components this projects uses you can use a CLI command `storyblok push-components https://raw.githubusercontent.com/storyblok/storyblok-express-boilerplate/master/setup/components.js`
 
 ## Configuration
 
