@@ -9,12 +9,12 @@ const compression = require('compression');
 const minifyHTML = require('express-minify-html');
 
 // 1. Require the Storyblok node client
-const StoryblokClient = require('storyblok-node-client');
+const StoryblokClient = require('storyblok-js-client');
 
 // 2. Initialize the client with the private key 
 // from your space dashboard at https://app.storyblok.com
 let Storyblok = new StoryblokClient({
-  privateToken: 'eRJlazIzZ47h1Q3mTr4Vygtt',
+  accessToken: 'eRJlazIzZ47h1Q3mTr4Vygtt',
   cache: {
     type: 'memory'
   }
@@ -50,12 +50,12 @@ app.get('/*', function(req, res) {
   path = path == '/' ? 'home' : path;
 
   Storyblok
-    .get(`stories/${path}`, {
+    .get(`cdn/stories/${path}`, {
       version: req.query._storyblok ? 'draft': 'published'
     })
     .then((response) => {
       res.render('index', {
-        story: response.body.story,
+        story: response.data.story,
         params: req.query
       });
     })
