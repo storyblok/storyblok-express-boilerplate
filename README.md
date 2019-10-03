@@ -8,8 +8,6 @@
 
 This boilerplate comes with a ready to use landing page using bootstrap as CSS framework. You can access the project on https://mysterious-tor-92558.herokuapp.com/.
 
-![Editing in Storyblok](https://a.storyblok.com/f/40387/8fde812381/screeenvideo.gif)
-
 
 ## What is a boilerplate?
 A boilerplate gives you a starting point for using Storyblok as API-based CMS for your next project.
