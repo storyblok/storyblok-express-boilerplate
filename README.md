@@ -34,7 +34,7 @@ After you cloned the repository execute following commands:
 
 1. `npm install`
 2. `gulp`
-3. Make sure you have created a space on app.storyblok.com with the location pointing to `http://localhost:4301`.
+3. Make sure you have created a space on app.storyblok.com with the location pointing to `http://localhost:4300`.
 4. To copy over the components this projects uses you can use following CLI command:
 ```
 storyblok push-components https://raw.githubusercontent.com/storyblok/storyblok-express-boilerplate/master/setup/components.js
@@ -47,7 +47,7 @@ Get your private token from your space on https://app.storyblok.com and exchange
 
 ```
 let Storyblok = new StoryblokClient({
-  privateToken: 'YOUR_TOKEN'
+  accessToken: 'YOUR_TOKEN'
 });
 ```
 
