@@ -14,7 +14,7 @@
     "express-handlebars": "^3.0.0",
     "express-minify-html": "^0.11.3",
     "marked": "^0.3.6",
-    "storyblok-js-client": "^1.0.0"
+    "storyblok-js-client": "^2.0.0"
   },
   "devDependencies": {
     "babel-core": "^6.20.0",
