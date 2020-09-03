@@ -29,7 +29,7 @@
     "gulp-sass-glob": "^1.0.8",
     "gulp-watch": "^4.3.11",
     "gulp-webpack": "^1.5.0",
-    "lazysizes": "^4.0.0-rc1"
+    "lazysizes": "^5.2.1"
   },
   "scripts": {
     "start": "node index.js",
