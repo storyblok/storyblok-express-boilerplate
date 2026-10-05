@@ -1,3 +1,6 @@
+> [!WARNING]
+> This repository is no longer maintained.
+
 <p align="center">
   <h1 align="center">Node.js / Express boilerplate</h1>
   <p align="center">A <a href="https://www.storyblok.com" target="_blank">Node.js / Express</a> boilerplate which uses Storyblok as datasource for rendering components.</p>
